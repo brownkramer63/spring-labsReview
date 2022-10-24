@@ -1,7 +1,7 @@
-package com.cydeo.spring05thymeleaf.repository.impl;
+package com.cydeo.lab05thymeleaf.repository.impl;
 
-import com.cydeo.spring05thymeleaf.model.Product;
-import com.cydeo.spring05thymeleaf.repository.ProductRepository;
+import com.cydeo.lab05thymeleaf.model.Product;
+import com.cydeo.lab05thymeleaf.repository.ProductRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

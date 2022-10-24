@@ -1,7 +1,7 @@
-package com.cydeo.spring05thymeleaf.service;
+package com.cydeo.lab05thymeleaf.service;
 
 
-import com.cydeo.spring05thymeleaf.model.Cart;
+import com.cydeo.lab05thymeleaf.model.Cart;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package com.cydeo.spring05thymeleaf.model;
+package com.cydeo.lab05thymeleaf.model;
 
 import lombok.Getter;
 import lombok.Setter;

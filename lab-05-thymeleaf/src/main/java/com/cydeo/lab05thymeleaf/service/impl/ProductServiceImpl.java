@@ -1,12 +1,11 @@
-package com.cydeo.spring05thymeleaf.service.impl;
+package com.cydeo.lab05thymeleaf.service.impl;
 
 
-import com.cydeo.spring05thymeleaf.model.Product;
-import com.cydeo.spring05thymeleaf.repository.ProductRepository;
-import com.cydeo.spring05thymeleaf.service.ProductService;
+import com.cydeo.lab05thymeleaf.model.Product;
+import com.cydeo.lab05thymeleaf.repository.ProductRepository;
+import com.cydeo.lab05thymeleaf.service.ProductService;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 

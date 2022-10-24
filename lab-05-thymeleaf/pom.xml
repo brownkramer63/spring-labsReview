@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cydeo</groupId>
-    <artifactId>spring-05-thymeleaf</artifactId>
+    <artifactId>lab-05-thymeleaf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-05-thymeleaf</name>
-    <description>spring-05-thymeleaf</description>
+    <name>lab-05-thymeleaf</name>
+    <description>lab-05-thymeleaf</description>
     <properties>
         <java.version>11</java.version>
     </properties>

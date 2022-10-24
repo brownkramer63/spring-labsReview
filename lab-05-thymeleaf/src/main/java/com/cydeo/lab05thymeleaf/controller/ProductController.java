@@ -1,8 +1,8 @@
-package com.cydeo.spring05thymeleaf.controller;
+package com.cydeo.lab05thymeleaf.controller;
 
 
-import com.cydeo.spring05thymeleaf.model.Product;
-import com.cydeo.spring05thymeleaf.service.ProductService;
+import com.cydeo.lab05thymeleaf.model.Product;
+import com.cydeo.lab05thymeleaf.service.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

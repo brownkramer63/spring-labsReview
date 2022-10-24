@@ -1,7 +1,7 @@
-package com.cydeo.spring05thymeleaf.service;
+package com.cydeo.lab05thymeleaf.service;
 
 
-import com.cydeo.spring05thymeleaf.model.Product;
+import com.cydeo.lab05thymeleaf.model.Product;
 
 import java.util.List;
 import java.util.UUID;

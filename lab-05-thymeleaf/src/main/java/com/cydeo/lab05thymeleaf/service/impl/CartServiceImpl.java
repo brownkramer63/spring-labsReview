@@ -1,10 +1,10 @@
-package com.cydeo.spring05thymeleaf.service.impl;
+package com.cydeo.lab05thymeleaf.service.impl;
 
-import com.cydeo.spring05thymeleaf.model.Cart;
-import com.cydeo.spring05thymeleaf.model.CartItem;
-import com.cydeo.spring05thymeleaf.model.Product;
-import com.cydeo.spring05thymeleaf.service.CartService;
-import com.cydeo.spring05thymeleaf.service.ProductService;
+import com.cydeo.lab05thymeleaf.model.Cart;
+import com.cydeo.lab05thymeleaf.model.CartItem;
+import com.cydeo.lab05thymeleaf.model.Product;
+import com.cydeo.lab05thymeleaf.service.CartService;
+import com.cydeo.lab05thymeleaf.service.ProductService;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
