@@ -131,8 +131,6 @@ class ProductControllerTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$.data[0].size()").value(5));
     }
 
-
-
     private static String toJsonString(final Object obj) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();

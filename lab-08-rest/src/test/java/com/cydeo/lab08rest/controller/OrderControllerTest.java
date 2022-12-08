@@ -46,12 +46,12 @@ class OrderControllerTest {
     @Test
     public void updateOrder() throws Exception {
         OrderDTO orderDTO = new OrderDTO();
-        orderDTO.setId(1L);
+        orderDTO.setId(5L);
         orderDTO.setPaidPrice(BigDecimal.valueOf(23));
         orderDTO.setCustomerId(1L);
         orderDTO.setPaymentId(2L);
         orderDTO.setTotalPrice(BigDecimal.valueOf(234));
-        orderDTO.setCartId(12L);
+        orderDTO.setCartId(739L);
 
         mvc.perform(MockMvcRequestBuilders
                         .put("/api/v1/order")
@@ -71,7 +71,6 @@ class OrderControllerTest {
                 actions.andExpect(status().isOk());
     }
 
-
     @Test
     public void getOrderListByEmail() throws Exception {
 
@@ -82,7 +81,6 @@ class OrderControllerTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$.data[0].size()").value(6));
     }
 
-
     @Test
     public void getOrderListByPaymentMethod() throws Exception {
 
@@ -92,7 +90,6 @@ class OrderControllerTest {
         actions.andExpect(status().isOk())
                 .andExpect(MockMvcResultMatchers.jsonPath("$.data[0].size()").value(6));
     }
-
 
     private static String toJsonString(final Object obj) {
         try {
