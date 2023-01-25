@@ -2,11 +2,12 @@ package com.cydeo.lab08rest.service.Implementation;
 
 import com.cydeo.lab08rest.dto.ProductDTO;
 import com.cydeo.lab08rest.service.ProductService;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
-
-public class ProductServiceImpl extends ProductService {
+@Service
+public class ProductServiceImpl implements ProductService {
     @Override
     public List<ProductDTO> retrieveProductList() {
         return null;
