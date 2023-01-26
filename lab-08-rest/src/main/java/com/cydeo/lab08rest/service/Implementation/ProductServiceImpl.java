@@ -1,6 +1,7 @@
 package com.cydeo.lab08rest.service.Implementation;
 
 import com.cydeo.lab08rest.dto.ProductDTO;
+import com.cydeo.lab08rest.entity.Product;
 import com.cydeo.lab08rest.mapper.MapperUtil;
 import com.cydeo.lab08rest.repository.ProductRepository;
 import com.cydeo.lab08rest.service.ProductService;
@@ -29,7 +30,8 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ProductDTO updateProduct(ProductDTO productDTO) {
-        return null;
+          Product product = productRepository.save(mapperUtil.convert(productDTO, new Product()));
+        return mapperUtil.convert(product, new ProductDTO());
     }
 
     @Override
