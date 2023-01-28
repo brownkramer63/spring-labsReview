@@ -46,7 +46,10 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public ProductDTO retrieveByName(String name) {
-        return null;
+     Product product =productRepository.findFirstByName(name);
+
+
+        return mapperUtil.convert(product,new ProductDTO());
     }
 
     @Override
